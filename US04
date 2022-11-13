@@ -1,0 +1,29 @@
+feature: US01: Compra de nueva ropa
+
+Como ciudadano promedio quiero que la aplicación me facilite la compra de nueva ropa para así lograr elegir la ropa adecuada para mejores atuendos
+
+Scenario E01: El ciudadano promedio visualiza una lista de catálogos con ropa recomendada
+
+Given que la aplicación le recomienda catálogos según su estilo
+
+When esto ocurra el usuario podrá elegir la ropa que más le guste
+
+Then comprará nueva ropa según su estilo y los posibles atuendos
+
+
+Scenario E02: El ciudadano promedio se visualiza mediante la app con la posible ropa comprada
+
+Given que la ropa de los catálogos también puede ser visualizada en el usuario para ver cómo le quedará
+
+When esto ocurra el usuario finalizará la selección de su nueva ropa
+
+Then podrá comprarla sin miedo a que no se le vea bien
+
+
+Scenario E03: El ciudadano promedio registra la nueva ropa que fue comprada
+
+Given la aplicación le recomendó ropa según la que ya tenía y su estilo
+
+When esto ocurra el usuario verá nuevos atuendos creados con la ropa que ya tenía y la nueva
+
+Then tendrá nuevas combinaciones que podrá usar al vestir
