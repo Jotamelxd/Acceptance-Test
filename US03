@@ -1,0 +1,29 @@
+feature: US03: Opinión de terceros
+
+como internauta quiero saber la opinión de otras personas con respecto a mis outfits y ver los suyos para así tener otra perspectiva
+
+Scenario E01: El usuario guarda una lista con sus outfits preferidos
+
+Given que la aplicación permite almacenar los que el usuario ingrese de forma manual como las recomendaciones
+
+When esto ocurra el usuario podrá tener a su disposición sus combinaciones favoritas
+
+Then se tendrá un fácil acceso a estas para ser administradas y compartidas
+
+
+Scenario E02: El usuario revisa entre los outfits que este tenga guardados
+
+Given que estos ya fueron guardados por el usuario en la aplicación
+
+When esto ocurra estos podrán ser compartidos con otras personas
+
+Then se podrá ver lo que piensan esas personas
+
+
+Scenario E03: El usuario revisa las publicaciones de otros individuos
+
+Given que la aplicación permite la visualización de otros outfits publicados
+
+When esto ocurra uno podrá comentar y valorar las publicaciones
+
+Then todos verán las opiniones de los demás
