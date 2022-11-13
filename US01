@@ -1,0 +1,27 @@
+feature: US01: Registro de prendas en el armario y elección de outfits
+
+Como universitario quiero registrar mis prendas en el armario virtual para que me recomiende Outfits con la ropa que ya tengo
+
+Scenario E01: registro mis prendas en la App subiendo fotos
+
+Given la aplicación los va a graba y guardar
+
+When suceda esto tendré un armario virtual
+
+Then podré ver las prendas en el armario virtual
+
+
+Scenario E02: En la aplicación el usuario ingresa para qué situación va a ser el outfit
+
+Given que el App va a empezar a buscar la situación ingresada cuando suceda esto hará las combinaciones de las prendas
+
+Then el usuario recibirá una recomendación del outfit que podrá vestir
+
+
+Scenario E03: El usuario registra los datos que le pide la aplicación
+
+Given que la App va a localizar la ubicación y ver cómo va ser la situación del clima
+
+When suceda esto el App recomendará el outfit
+
+Then el usuario podrá ver con que outfit vestirse
