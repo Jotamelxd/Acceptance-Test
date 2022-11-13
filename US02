@@ -1,0 +1,38 @@
+feature: US02: Selección del outfit
+
+Como usuario de la aplicación quiero que se me recomiende un outfit adecuado para la situación correcta y en poco tiempo
+
+Scenario E01: El usuario está dentro de la app apunto de ingresar la ocasión para el outfit
+
+Given el usuario necesita un outfit adecuado
+
+When el usuario registre la ocasión para la que necesita el outfit
+
+Then la aplicación debe basarse en ello para dar el resultado final
+
+
+Scenario E02:  El usuario espera la recomendación del outfit
+
+Given  la aplicación guarda la información de cada usuario
+
+When el usuario requiera de una recomendación de outfit
+
+Then la aplicación deberá verificar sus preferencias
+
+
+Scenario E03:  El usuario espera la recomendación del outfit
+
+Given la aplicación pide tu ubicación
+
+When el usuario requiera de una recomendación de outfit
+
+Then la aplicación deberá verificar la situación climática y recomendar algo adecuado para ello
+
+
+Scenario E04: El usuario espera la recomendación del outfit
+
+Given la aplicación debe estar perfectamente optimizada
+
+When el usuario requiera de una recomendación de outfit
+
+Then la aplicación deberá darle esta recomendación en aproximadamente 5 minutos
